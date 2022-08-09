@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat' sans-serif;
+    cursor: default;
 }
 
 * {
@@ -106,9 +107,10 @@ nav {
 }
 
 .btn:hover {
-    box-shadow: 2px 2px 2px 2px #000;
     background-color: #fff;
     color: #000;
+    transition: .5s;
+    opacity: .7;
 }
 
 /* Slider && items */
@@ -217,7 +219,9 @@ nav {
 }
 
 .about__item:hover .about__img {
+    transition: 0.5s;
     transform: translate3d(-10px, -10px, 0);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .about__item:hover .about__img img {
