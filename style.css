@@ -521,13 +521,15 @@ nav {
 }
 
 .text {
+    position: relative;
     max-width: 770px;
     font-size: 20px;
     color: #b7b7b7;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 676px;
 }
 
 .img {
     padding-top: 72px;
-    padding-right: 470px;
+    padding-left: 470px;
 }
