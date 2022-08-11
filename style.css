@@ -514,6 +514,7 @@ nav {
 }
 
 .small_section {
+    display: flex;
     margin-top: 130px;
     width: 100%;
     height: 291px;
@@ -521,15 +522,30 @@ nav {
 }
 
 .text {
-    position: relative;
     max-width: 770px;
     font-size: 20px;
     color: #b7b7b7;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-left: 676px;
+    padding-top: 100px;
+    padding-left: 30px;
 }
 
 .img {
     padding-top: 72px;
     padding-left: 470px;
+}
+
+span {
+    margin-top: 210px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.line {
+    width: 63px;
+    height: 3px;
+    background-color: #f38181;
+    margin-top: 220px;
+    margin-left: -740px;
 }
